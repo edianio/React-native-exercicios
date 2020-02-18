@@ -1,0 +1,454 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200217.091716.10168.0.001.json",
+    "dumpEventTime": "2020-02-17T09:17:16Z",
+    "dumpEventTimeStamp": "1581941836642",
+    "processId": 10168,
+    "cwd": "E:\\ReactNative\\exe01",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\ReactNative\\exe01\\node_modules\\jetifier\\src\\worker.js"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 292578,
+        "nice": 0,
+        "sys": 309625,
+        "idle": 3036171,
+        "irq": 41453
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 326625,
+        "nice": 0,
+        "sys": 194078,
+        "idle": 3117453,
+        "irq": 7109
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 324734,
+        "nice": 0,
+        "sys": 219328,
+        "idle": 3094093,
+        "irq": 3234
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 270156,
+        "nice": 0,
+        "sys": 160765,
+        "idle": 3207234,
+        "irq": 1984
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 153390,
+        "nice": 0,
+        "sys": 103343,
+        "idle": 3381421,
+        "irq": 1390
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 137093,
+        "nice": 0,
+        "sys": 81906,
+        "idle": 3419140,
+        "irq": 953
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 89593,
+        "nice": 0,
+        "sys": 52984,
+        "idle": 3495562,
+        "irq": 968
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 78640,
+        "nice": 0,
+        "sys": 50781,
+        "idle": 3508718,
+        "irq": 2937
+      }
+    ],
+    "host": "F570ZD"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff74d711759",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d715b7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d714b38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d80433b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e008c5e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74dff0ca1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74debe56c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74dec6671",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74debbcd3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74deba4a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74dedb775",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74dc47a49",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e43463d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3afdf4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e49a943",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b1781",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e3b136c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74df16c53",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74df165d6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74dfe784b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d82ac1e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d82aec7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d829d9a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d7cc725",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d82a8b3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74d6e674c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74e4e7728",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffb2dfc7bd4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffb2e4aced1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3162112,
+    "totalCommittedMemory": 3162112,
+    "usedMemory": 2476784,
+    "availableMemory": 2195931352,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047488,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 1159168,
+        "committedMemory": 1159168,
+        "capacity": 993880,
+        "used": 992776,
+        "available": 1104
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 152064,
+        "used": 152064,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 252160,
+        "used": 252160,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.062,
+    "kernelCpuSeconds": 0.062,
+    "cpuConsumptionPercent": 12.4,
+    "maxRss": 17850368,
+    "pageFaults": {
+      "IORequired": 4527,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ADSK_3DSMAX_x64_2020": "C:\\Program Files\\Autodesk\\3ds Max 2020\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\edian\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\edian\\AppData\\Roaming",
+    "CLASSPATH": ";C:\\Program Files\\Java\\jdk1.8.0_241\\lib;C:\\Program Files\\Java\\jdk1.8.0_241\\lib\\tools.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\lib\\htmlconverter.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\rt.jar;",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "F570ZD",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\edian\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\edian",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_241",
+    "LOCALAPPDATA": "C:\\Users\\edian\\AppData\\Local",
+    "LOGONSERVER": "\\\\F570ZD",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\edian\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\edian\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "E:\\ReactNative\\exe01\\node_modules\\.bin;E:\\ReactNative\\node_modules\\.bin;E:\\node_modules\\.bin;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk1.8.0_91\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft VS Code\\bin;;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\edian\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\edian\\AppData\\Roaming\\npm;C:\\Users\\edian\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\edian\\AppData\\Local\\Android\\Sdk\\tools\\bin;C:\\Users\\edian\\AppData\\Local\\Android\\Sdk\\platform-tools",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "1100",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "E:\\tmp",
+    "TMP": "E:\\tmp",
+    "USERDOMAIN": "F570ZD",
+    "USERDOMAIN_ROAMINGPROFILE": "F570ZD",
+    "USERNAME": "edian",
+    "USERPROFILE": "C:\\Users\\edian",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "windir": "C:\\Windows",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
